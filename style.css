@@ -1,0 +1,69 @@
+header {
+    background-color: #FBB13C;
+    text-align: center;
+    color: #A5243D;
+    padding: 50px;
+    margin: 50px;
+    font-size: 21px;
+    font-family: Verdana;
+}
+body {
+    background-color: #FEA82F;  
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #A5243D;
+}
+/* add together headers to style the same */
+h3, h4 {
+    text-align: center; 
+    font-size: 20px;
+    font-style: bold;
+    color: #A5243D;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.centered-text {
+    text-align: center;
+}
+ul, ol {
+
+    list-style-position: inside;
+}
+li {
+    font-style: italics;
+}
+/*psuedo classes to style link when visted, or hover over it */
+/* unvisited link */
+a:link {
+    color: #2A2D34;
+  }
+  
+/* visited link */
+a:visited {
+    color: #4E5283;
+}
+  
+/* mouse over link */
+a:hover {
+    color: #083D77;
+}
+  
+/* selected link */
+a:active {
+    color: #280003;
+}
+hr.style-seven {
+  height: 8px;
+  border: 2px dashed #A5243D;
+}
+footer {
+    background-color: #FBB13C;
+    margin: 140px 0;
+    padding: 10px;
+    font-size: 12px;
+}
